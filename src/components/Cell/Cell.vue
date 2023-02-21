@@ -63,8 +63,7 @@
 </template>
 
 <script>
-import openLink from 'Core/utils/openLink.utils';
-import PopupModal from 'Core/components/PopupModal';
+import PopupModal from '../PopupModal';
 
 export default {
   components: {
@@ -202,7 +201,7 @@ export default {
      */
     onClick(event) {
       if (this.url) {
-        openLink(this.url);
+        this.$emit('openlink', this.url);
         return;
       }
 
