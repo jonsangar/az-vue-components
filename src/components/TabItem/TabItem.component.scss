@@ -1,0 +1,24 @@
+.az-tabs {
+  .az-tab {
+    width: 100%;
+    // padding: half() 0;
+    font-weight: font-weight(bold);
+    text-align: center;
+
+    a{
+      display: inline-block;
+      width: 100%;
+      padding: half() 0;
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid color(border);
+    }
+
+    &--selected{
+      color: white;
+      text-shadow: 0 2px 4px rbga(var(--color-shadow), 0.08);
+      background-image: radial-gradient(circle at 0% 0%, color(brand-light), color(brand-dark));
+    }
+  }
+}

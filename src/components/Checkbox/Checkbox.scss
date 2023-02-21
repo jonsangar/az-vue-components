@@ -1,0 +1,144 @@
+$checkboxSize: size(0.8) !default;
+$checkboxSizeCell: size(1.05) !default;
+$checkboxBackground: #ffffff !default;
+$checkboxCheck: color(brand) !default;
+$checkboxBorderColor: color(gray5) !default;
+$checkboxBorder: color(gray7) !default;
+$checkboxBorderWidth: 2px !default;
+$checkboxBorderRadius: 2px !default;
+$checkboxMarkColor: #ffffff !default;
+
+.az-checkbox {
+  $rootClass: &;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+
+
+  &__input {
+    position: relative;
+  }
+
+  &__base {
+    width: $checkboxSize;
+    height: $checkboxSize;
+    margin-right: half();
+    cursor: pointer;
+    background: $checkboxBackground;
+    border: $checkboxBorderWidth solid $checkboxBorderColor;
+    border-radius: $checkboxBorderRadius;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.23, 1);
+  }
+
+  &__mark {
+    position: absolute;
+    top: 0.6em;
+    left: 0.2em;
+    z-index: 1;
+    width: 0.5em;
+    height: 0.75em;
+    content: '';
+    border-top: 0.2em solid $checkboxMarkColor;
+    border-right: 0.2em solid $checkboxMarkColor;
+    opacity: 0;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.23, 1);
+    transition-delay: 200ms;
+    transform: scaleX(-1) rotate(135deg);
+    transform-origin: left top;
+  }
+
+  &__cell {
+    position: relative;
+    display: none;
+    width: $checkboxSizeCell;
+    height: $checkboxSizeCell;
+    border: 2px solid $checkboxBorder;
+    border-radius: 50%;
+    transition: transform 0.14s ease;
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+
+    svg {
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      bottom: -2px;
+      left: -2px;
+      z-index: 1;
+      display: block;
+      width: $checkboxSizeCell;
+      height: $checkboxSizeCell;
+      fill: none;
+      stroke: $checkboxBorderColor;
+      stroke-dasharray: 0 162.6 133 (162.6 - 133);
+      stroke-dashoffset: 162.6 - 38;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 3;
+      transition: all 0.4s ease 0s;
+    }
+
+
+  }
+
+  &__group__header{
+    background-color: color(gray7) !important;
+    color: black !important;
+  }
+
+  &__label {
+    line-height: simple();
+    color: color(content);
+  }
+
+  //
+  // Checked State
+  //
+  &--checked {
+    #{$rootClass}__base {
+      border: (calc($checkboxSize / 2) + 0.001) solid color(brand);
+    }
+
+    #{$rootClass}__mark {
+      opacity: 1; // Se descuadra en las cabeceras de cell group de InviteUser
+      // opacity: 0; // TODO: Arreglarlo para que esté a 1 sin descuadrar
+    }
+
+    #{$rootClass}__cell {
+      svg {
+        stroke: $checkboxCheck;
+        stroke-dasharray: 0 162.6 28 (162.6 - 28);
+        stroke-dashoffset: 162.6;
+        transition: all 0.4s ease 0.2s;
+      }
+    }
+  }
+
+  //
+  // Disabled State
+  //
+  &--disabled {
+    #{$rootClass}__label {
+      color: color(gray4);
+    }
+
+    #{$rootClass}__input {
+      opacity: 0.5;
+    }
+
+    #{$rootClass}__label {
+      opacity: 0.7;
+    }
+  }
+
+  @include hover {
+    .az-checkbox {
+      &__base {
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}

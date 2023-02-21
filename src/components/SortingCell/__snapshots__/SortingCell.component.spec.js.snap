@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortingCell.vue Comprueba renderizado del componente SortingCell con snapshot 1`] = `
+<div class="az-sorting-cell az-sorting-cell--settingsActive az-sorting-cell--header">
+  <!---->
+  <div class="az-sorting-cell__content">
+    <div class="az-sorting-cell__content__title">MyTitle</div>
+    <div class="az-sorting-cell__content__title" style="display: none;">
+      <form><input id="input-item-MyItem" disabled="disabled" maxlength="10" minlength="2" class="az-sorting-cell__content__title--input"></form>
+    </div>
+    <!---->
+  </div>
+</div>
+`;

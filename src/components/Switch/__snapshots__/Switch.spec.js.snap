@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch.vue Comprueba el estado "disabled" 1`] = `
+<div role="switch" aria-checked="false" class="az-switch az-switch--disabled">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba estado "OFF" cuando el valor introducido es el adecuado 1`] = `
+<div role="switch" aria-checked="false" class="az-switch">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba estado "ON" cuando el valor introducido es el adecuado 1`] = `
+<div role="switch" aria-checked="true" class="az-switch az-switch--on">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba que no se aplican estilos de "activeColor" cuando Switch está inactivo 1`] = `
+<div role="switch" aria-checked="false" class="az-switch">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba que no se aplican estilos de "inactiveColor" cuando Switch está activo 1`] = `
+<div role="switch" aria-checked="true" class="az-switch az-switch--on">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba que se aplica correctamente "activeColor" 1`] = `
+<div role="switch" aria-checked="true" class="az-switch az-switch--on" style="background-color: red;">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba que se aplica correctamente "inactiveColor" 1`] = `
+<div role="switch" aria-checked="false" class="az-switch" style="background-color: blue;">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba que se aplica el estilo "size large" 1`] = `
+<div role="switch" aria-checked="false" class="az-switch az-switch--large">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba que se aplica el estilo "size small" 1`] = `
+<div role="switch" aria-checked="false" class="az-switch az-switch--small">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba renderizado del componente Switch con snapshot 1`] = `
+<div role="switch" aria-checked="false" class="az-switch">
+  <div class="az-switch__node"></div>
+</div>
+`;
+
+exports[`Switch.vue Comprueba valores personalizados de activo/incativo 1`] = `
+<div role="switch" aria-checked="false" class="az-switch">
+  <div class="az-switch__node"></div>
+</div>
+`;

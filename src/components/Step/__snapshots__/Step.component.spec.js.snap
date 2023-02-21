@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step.vue Comprueba renderizado del componente Step con props por defecto con snapshot 1`] = `
+<div class="az-step">
+  <div class="az-step__icon">
+    <az-icon-stub name="cancel" width="" height="" scale="1" fill="true"></az-icon-stub>
+  </div>
+  <div class="az-step__title az-step__title--active">Step </div>
+</div>
+`;

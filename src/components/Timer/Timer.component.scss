@@ -1,0 +1,164 @@
+.timerModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+
+  /* Adding safe area  */
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-bottom: var(--notch-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-left: var(--notch-inset-left);
+  background-color: rgba(0, 0, 0, 0.8);
+
+  a {
+    cursor: pointer;
+  }
+
+  table{
+    tr:last-child{
+      td{
+        border: none;
+      }
+    }
+  }
+
+  &__backButton{
+    position: absolute;
+    top: simple();
+    left: simple();
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    position: absolute;
+    top: 0 ;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: calc(100vw - #{simple()});
+    height: fit-content;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+    background-color: color(gray8);
+    border-radius: $border-radius ;
+
+  }
+
+  &__title {
+    // @extend %base-bold-black;
+
+    padding: simple() 0 simple();
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__message{
+    padding: 0 double();
+  }
+
+
+  &__buttons {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    padding-top: simple();
+  }
+
+  &__button {
+    @extend %base-normal-black;
+
+    width: 100%;
+    height: double();
+    overflow: hidden;
+    line-height: double();
+    color: color(gray8) !important;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid $border-color;
+
+    &:not(:last-child) {
+      border-right: 1px solid $border-color;
+    }
+  }
+
+  &__button--brand{
+    background-image: radial-gradient(circle at 0% 0%, color(brand-light), color(brand));
+  }
+
+  &__button--cancel{
+    background-image: radial-gradient(circle at 0% 0%, color(gray6), color(gray4));
+  }
+
+  &__backButton{
+    width: 20%;
+    padding: 0 0 half();
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    &.colour-title{
+      padding-bottom: half();
+      margin-bottom: half();
+      font-weight: bold;
+
+      &.color-1{
+        color: #00AAA1;
+
+        &.underline{
+          border-bottom: 2px solid #00AAA1;
+        }
+      }
+
+      &.color-2{
+        color: #FFB837;
+
+        &.underline{
+            border-bottom: 2px solid #FFB837;
+        }
+      }
+
+      &.color-3{
+        color: #F3975B;
+
+        &.underline{
+            border-bottom: 2px solid #F3975B;
+        }
+      }
+
+      &.color-4{
+        color: #D04F53;
+
+        &.underline{
+          border-bottom: 2px solid #D04F53;
+        }
+      }
+
+      &.color-5{
+        color: #965379;
+
+        &.underline{
+          border-bottom: 2px solid #965379;
+        }
+      }
+    }
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0
+  }
+}
+
+@include media(landscape) {
+  .timerModal{
+    &__wrapper {
+      max-width: 370px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col.vue Comprueba que tiene responsive 1`] = `<div class="col col--cols-3"><span>foo</span></div>`;
+
+exports[`Col.vue Comprueba renderizado del componente Col con snapshot 1`] = `<div class="col"><span>foo</span></div>`;

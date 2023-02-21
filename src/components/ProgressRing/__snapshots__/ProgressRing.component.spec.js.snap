@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressRing.vue Comprueba renderizado del componente ProgressRing con snapshot 1`] = `
+<div class="dashed-circle-progress" style="width: 10px; height: 10px;"><svg height="10" width="10">
+    <defs>
+      <mask id="mask-1" height="10" width="10">
+        <circle stroke="white" fill="transparent" stroke-dasharray="18.84955592153876 18.84955592153876" stroke-width="1" r="3" cx="5" cy="5" class="progress-ring__circle" style="stroke-dashoffset: 16.964600329384883;"></circle>
+      </mask>
+    </defs>
+    <circle stroke="dark" fill="transparent" stroke-dasharray="2" stroke-width="1" r="3" cx="5" cy="5" style="opacity: 0.3;"></circle>
+    <circle stroke="light" fill="transparent" stroke-dasharray="2" stroke-width="1" r="3" cx="5" cy="5" style="mask: url('#mask-1'); opacity: 1;"></circle>
+  </svg>
+  <div class="textInfo" style="max-width: 5px;">
+    <div class="progress">10</div>
+  </div>
+</div>
+`;

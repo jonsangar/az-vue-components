@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroup.vue Comprueba renderizado del componente CheckboxGroup con snapshot 1`] = `<div class="az-checkbox-group"></div>`;

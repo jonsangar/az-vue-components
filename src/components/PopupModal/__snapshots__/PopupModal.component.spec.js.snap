@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopupModal.vue Comprueba renderizado del componente PopupModal con snapshot 1`] = `
+<transition-stub name="fade-in-linear-transition">
+  <div class="popupModal">
+    <transition-stub name="zoom-in-center-transition" appear="true">
+      <div class="popupModal__wrapper">
+        <!---->
+        <!---->
+        <div class="popupModal__title font-weight-bold"></div>
+        <div id="popup-1" class="popupModal__container">
+          <div class="popupModal__body">
+            <!---->
+            <!---->
+            <!---->
+            <div class="popupModal__message" style="text-align: center;"></div>
+            <!---->
+          </div>
+        </div>
+        <transition-stub name="fade">
+          <div class="linear-overlay-mask fade" style="display: none;"></div>
+        </transition-stub>
+        <!---->
+      </div>
+    </transition-stub>
+  </div>
+</transition-stub>
+`;

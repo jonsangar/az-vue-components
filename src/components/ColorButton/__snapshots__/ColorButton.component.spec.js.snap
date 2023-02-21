@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorButton.vue Comprueba renderizado del componente ColorButton con snapshot 1`] = `
+<div class="colorButton">
+  <div class="colorButton__fill colorButton__fill__color-1"></div>
+</div>
+`;

@@ -1,0 +1,31 @@
+$input-size: 30px;
+
+.input-number{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 quarter();
+
+    &__title {
+      width: $input-size;
+      height: $input-size;
+      margin-right: quarter();
+    }
+
+    &__value{
+      min-width: $input-size;
+      height: $input-size;
+      color: color(gray3);
+      text-align: center;
+      background-color: transparent;
+      border: none;
+    }
+
+    &__button{
+      width: $input-size;
+      height: $input-size;
+      text-align: center;
+      background-color: color(gray8);
+      border-radius: 5px;
+    }
+}

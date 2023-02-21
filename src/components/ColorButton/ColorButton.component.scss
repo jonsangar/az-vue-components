@@ -1,0 +1,137 @@
+.colorButton{
+
+  &__fill{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+
+    &__color-1{
+      background-image: radial-gradient(circle at 100% 100%,#52606D 0%, #9AA5B1 100%);
+
+      &--selected{
+        &::after{
+          position: absolute;
+          top: -4px;
+          right: 0;
+          bottom: 0;
+          left: -4px;
+          width: 38px;
+          height: 38px;
+          content: '';
+          border: 2px solid #52606D;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__color-2{
+      background-image: radial-gradient(circle at 100% 100%,$color-red-start 0%, $color-red-end 100%);
+
+      &--selected{
+        &::after{
+          position: absolute;
+          top: -4px;
+          right: 0;
+          bottom: 0;
+          left: -4px;
+          display: block;
+          width: 38px;
+          height: 38px;
+          content: '';
+          border: 2px solid $color-red-start;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__color-3{
+      background-image: radial-gradient(circle at 100% 100%,$color-purple-start 0%, $color-red-start 100%);
+
+      &--selected{
+        &::after{
+          position: absolute;
+          top: -4px;
+          right: 0;
+          bottom: 0;
+          left: -4px;
+          display: block;
+          width: 38px;
+          height: 38px;
+          content: '';
+          border: 2px solid $color-purple-start;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__color-4{
+      background-image: radial-gradient(circle at 100% 100%,$color-blue-start 0%, $color-blue-end 100%);
+
+      &--selected{
+        &::after{
+          position: absolute;
+          top: -4px;
+          right: 0;
+          bottom: 0;
+          left: -4px;
+          display: block;
+          width: 38px;
+          height: 38px;
+          content: '';
+          border: 2px solid $color-blue-start;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__color-5{
+      background-image: radial-gradient(circle at 100% 100%,$color-green-start 0%, $color-green-end 100%);
+
+      &--selected{
+        &::after{
+          position: absolute;
+          top: -4px;
+          right: 0;
+          bottom: 0;
+          left: -4px;
+          display: block;
+          width: 38px;
+          height: 38px;
+          content: '';
+          border: 2px solid $color-green-start;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__color-6{
+      background-image: radial-gradient(circle at 100% 100%,$color-yellow-start 0%, $color-yellow-end 100%);
+
+      &--selected{
+        &::after{
+          position: absolute;
+          top: -4px;
+          right: 0;
+          bottom: 0;
+          left: -4px;
+          display: block;
+          width: 38px;
+          height: 38px;
+          content: '';
+          border: 2px solid $color-yellow-start;
+          border-radius: 50%;
+        }
+      }
+    }
+
+
+  }
+
+
+
+
+
+}

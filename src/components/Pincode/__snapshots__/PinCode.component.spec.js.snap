@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinCode.vue Comprueba renderizado del componente Pincode con snapshot 1`] = `
+<div class="pincode">
+  <div class="pincode__mask"></div>
+  <div class="pincode__wrapper">
+    <div class="pincode-input">
+      <div class="pincode-input__digit"><input type="number" min="0" max="9"></div>
+      <div class="pincode-input__digit"><input type="number" min="0" max="9"></div>
+      <div class="pincode-input__digit"><input type="number" min="0" max="9"></div>
+      <div class="pincode-input__digit"><input type="number" min="0" max="9"></div>
+    </div>
+    <div class="pincode-keyboard">
+      <div class="row">
+        <div class="pincode-keyboard__key pincode-keyboard__key--1">1</div>
+        <div class="pincode-keyboard__key pincode-keyboard__key--2">2</div>
+        <div class="pincode-keyboard__key pincode-keyboard__key--3">3</div>
+      </div>
+      <div class="row">
+        <div class="pincode-keyboard__key pincode-keyboard__key--4">4</div>
+        <div class="pincode-keyboard__key pincode-keyboard__key--5">5</div>
+        <div class="pincode-keyboard__key pincode-keyboard__key--6">6</div>
+      </div>
+      <div class="row">
+        <div class="pincode-keyboard__key pincode-keyboard__key--7">7</div>
+        <div class="pincode-keyboard__key pincode-keyboard__key--8">8</div>
+        <div class="pincode-keyboard__key pincode-keyboard__key--9">9</div>
+      </div>
+      <div class="row">
+        <div class="pincode-keyboard__key pincode-keyboard__key--0">0</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

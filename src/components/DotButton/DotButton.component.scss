@@ -1,0 +1,90 @@
+// Valores Brand
+$button-brand-gradient-color: #ffffff !default;
+$button-brand-gradient-background1: color(brand-light) !default;
+$button-brand-gradient-background2: color(brand) !default;
+$button-brand-gradient-background1-hover: color(brand) !default;
+$button-brand-gradient-background2-hover: color(brand-dark) !default;
+$button-brand-plain-color: #ffffff !default;
+$button-brand-plain-background: color(brand) !default;
+$button-brand-plain-background-hover: color(brand-dark) !default;
+$button-brand-ghost-color: color(brand) !default;
+$button-brand-ghost-border: color(brand-light) !default;
+$button-brand-ghost-color-hover: color(brand-darker) !default;
+$button-brand-ghost-border-hover: color(brand) !default;
+
+
+.dotButton {
+  cursor: pointer;
+  width: size(1.5);
+  height: size(1.5);
+  border-radius: 50%;
+  border: 1px solid color(black);
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  background-color: white;
+  user-select: none;
+  font-size: font-size(h5);
+
+  &:hover{
+    background-color: whitesmoke;
+  }
+
+  &__container {
+    width: size(1.5);
+    height: size(1.5);
+    line-height: size(1.5);
+    border-radius: 50%;
+    position: relative;
+  }
+
+  &__value {
+    overflow: hidden;
+    color: color(black);
+    text-align: center;
+    width: 100%;
+  }
+
+  &__link {
+    position: absolute;
+    bottom: -.05em;
+    right: -.25em;
+    background-color: color(brand);
+    width: size(.7);
+    height: size(.7);
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  &--active {
+    @include button(
+      $button-brand-gradient-color,
+      $button-brand-gradient-background1,
+      $button-brand-gradient-background2,
+      $button-brand-gradient-background1-hover,
+      $button-brand-gradient-background2-hover
+    );
+
+    .dotButton__value {
+      color: white;
+    }
+
+    border: none;
+  }
+
+  &--disabled {
+    cursor: not-allowed !important;
+    border-color: color(gray6) !important;
+
+    .dotButton__container {
+      .dotButton__value {
+        color: color(gray6) !important;
+      }
+    }
+  }
+
+}

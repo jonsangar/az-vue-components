@@ -1,0 +1,31 @@
+$color-background: #ffffff;
+
+.az-steps {
+  overflow: hidden;
+  background-color: $color-background;
+
+  &--horizontal {
+    padding: 10px 10px 0;
+
+    .az-steps__items {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 22px;
+    }
+  }
+
+  &__line{
+    z-index: 0;
+    height: 1px;
+    margin: 0 half();
+    overflow: hidden;
+    background-color: color(gray5);
+    transform: translateY(-55px);
+  }
+
+  &--vertical {
+    padding: 0 0 0 double();
+  }
+}

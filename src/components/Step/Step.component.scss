@@ -1,0 +1,214 @@
+$color-background: var(--color-background);
+
+.az-step{
+  position: relative;
+  color: color(gray5);
+
+  &--active{
+    color: color(gray2);
+
+    .az-step__title {
+      color: color(gray2);
+    }
+  }
+
+  &--success{
+    color: color(gray2);
+
+    .az-step__title {
+      color: color(success);
+    }
+  }
+
+  &--error{
+    color: color(danger);
+
+    .az-step__title {
+      color: color(danger);
+    }
+  }
+
+  &__title{
+    text-align: center;
+  }
+
+  &__icon{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    padding: 0 half();
+    text-align: center;
+    background-color: $color-background;
+  }
+
+  // &__line{
+  //   z-index: 0;
+  //   height: 1px;
+  //   background-color: color(gray5);
+  //   transform: translateY(-35px);
+  // }
+
+
+}
+
+
+// $color-circle: #ffffff;
+// $color-line: color(gray5);
+// $animation-duration-base: 1s;
+// $step-horizontal-title-font-size: font-size(small1);
+// $step-icon-size: 29px;
+// $step-process-text-color: green;
+// $step-finish-text-color: blue;
+// $step-active-color: orange;
+// $step-finish-line-color: gray;
+
+// .az-step {
+//   position: relative;
+//   flex: 1;
+//   font-size: font-size(small1);
+//   color: color(gray4);
+
+//   &__circle {
+//     display: block;
+//     width: 50px;
+//     height: 50px;
+//     background-color: $color-circle;
+//     border-radius: 50%;
+//   }
+
+//   &__line {
+//     position: absolute;
+//     background-color: $color-line;
+//     transition: background-color $animation-duration-base;
+//   }
+
+//   &--horizontal {
+//     float: left;
+
+//     &:first-child {
+//       .az-step__title {
+//         margin-left: 0;
+//         transform: none;
+//       }
+//     }
+
+//     &:last-child {
+//       position: absolute;
+//       right: 1px;
+//       width: auto;
+
+//       .az-step__title {
+//         margin-left: 0;
+//         transform: none;
+//       }
+
+//       .az-step__circle-container {
+//         right: -9px;
+//         left: auto;
+//       }
+//     }
+
+//     .az-step__circle-container {
+//       position: absolute;
+//       top: 30px;
+//       left: simple();
+//       z-index: 1;
+//       padding: 0 simple();
+//       background-color: #ffffff;
+//       transform: translateY(-50%);
+//     }
+
+//     .az-step__title {
+//       display: inline-block;
+//       margin-left: 3px;
+//       font-size: $step-horizontal-title-font-size;
+//       transform: translateX(-50%);
+
+//       @media (max-width: 321px) {
+//         font-size: $step-horizontal-title-font-size - 1px;
+//       }
+//     }
+
+//     .az-step__line {
+//       top: 30px;
+//       left: 0;
+//       width: 100%;
+//       height: 1px;
+//     }
+
+//     .az-step__icon {
+//       display: block;
+//       font-size: $step-icon-size;
+//     }
+
+//     .az-step--process {
+//       color: $step-process-text-color;
+//     }
+//   }
+
+//   &--vertical {
+//     display: block;
+//     float: none;
+//     padding: 10px 10px 10px 0;
+//     line-height: simple();
+
+//     &:not(:last-child)::after {
+//       border-bottom-width: 1px;
+//     }
+
+//     &:first-child {
+//       &::before {
+//         position: absolute;
+//         top: 0;
+//         left: -15px;
+//         z-index: 1;
+//         width: 1px;
+//         height: 20px;
+//         content: '';
+//         background-color: #ffffff;
+//       }
+//     }
+
+//     .az-step__circle-container {
+//       position: absolute;
+//       top: 19px;
+//       left: -15px;
+//       z-index: 2;
+//       font-size: $step-icon-size;
+//       line-height: 1;
+//       transform: translate(-50%, -50%);
+//     }
+
+//     .az-step__line {
+//       top: 16px;
+//       left: -15px;
+//       width: 1px;
+//       height: 100%;
+//     }
+//   }
+
+//   &:last-child {
+//     .az-step__line {
+//       width: 0;
+//     }
+//   }
+
+//   &--finish {
+//     color: $step-finish-text-color;
+
+//     .az-step__circle,
+//     .az-step__line {
+//       background-color: $step-finish-line-color;
+//     }
+//   }
+
+//   &__icon,
+//   &__title {
+//     transition: color $animation-duration-base;
+
+//     &--active {
+//       color: $step-active-color;
+//     }
+//   }
+// }

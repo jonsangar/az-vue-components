@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellGroup.vue Comprueba renderizado del componente CellGroup con snapshot 1`] = `
+<div class="az-cell-group">
+  <!---->
+  <div class="az-cell-group__content"></div>
+</div>
+`;

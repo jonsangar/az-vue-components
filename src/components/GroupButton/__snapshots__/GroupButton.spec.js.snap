@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupButton.vue Comprueba renderizado del componente GroupButton con snapshot 1`] = `
+<div class="groupButtonComponent">
+  <!---->
+  <div class="groupButtons background-gray7"></div>
+</div>
+`;

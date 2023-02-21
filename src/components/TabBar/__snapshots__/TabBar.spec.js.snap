@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabBar.vue Comprueba renderizado del componente TabBar con las props por defecto con snapshot 1`] = `<div class="az-tabBar az-tabBar--fixed az-tabBar--safeArea" style="z-index: 1;"></div>`;

@@ -1,0 +1,6 @@
+.az-sorting-group{
+  @include shadow(2);
+
+  overflow: hidden;
+  border-radius: $border-radius;
+}

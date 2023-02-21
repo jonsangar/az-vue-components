@@ -1,0 +1,296 @@
+.popupModal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+
+  /* Adding safe area  */
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-bottom: var(--notch-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-left: var(--notch-inset-left);
+  background-color: rgba(0, 0, 0, 0.8);
+
+  a {
+    cursor: pointer;
+  }
+
+  table{
+    tr:last-child{
+      td{
+        border: none;
+      }
+    }
+  }
+
+  &__backButton{
+    position: absolute;
+    top: simple();
+    left: simple();
+    cursor: pointer;
+  }
+
+  &__closeButton{
+    position: absolute;
+    top: half();
+    right: 0.5rem;
+    padding: 0 0.5rem 0;
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    position: absolute;
+    top: 0 ;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: calc(100vw - #{simple()});
+    height: fit-content;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+    background-color: color(gray8);
+    border-radius: $border-radius ;
+
+  }
+
+  &__container{
+    max-height: 85vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+
+  &__title {
+    // @extend %base-bold-black;
+
+    padding: simple() 0 simple();
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__body{
+    .popupModal__img {
+      display: block;
+      margin: double() auto;
+    }
+
+    .popupModal__subtitle {
+      margin-bottom: half();
+      font-size: font-size(h4);
+      font-weight: font-weight(bold);
+      text-align: center;
+      padding: 0 half();
+
+      &--danger{
+        color: color(danger);
+      }
+
+      &--brand{
+        color: color(brand);
+      }
+
+      &--warning{
+        color: color(warning);
+      }
+    }
+
+    .popupModal__message {
+      max-width: 320px;
+      padding: 0 half();
+      margin: 0 auto;
+      margin-bottom: double();
+      color: color(gray3);
+      font-size: 1.1em;
+
+      &--loading{
+        padding-bottom: double();
+        text-align: center;
+      }
+
+    }
+
+    .popupModal__message--otherMessage {
+      margin-bottom: 0 !important;
+    }
+
+    .popupModal__message--hasButtons{
+      margin-bottom: quadruple();
+    }
+
+    .popupModal__list {
+      width: 100%;
+      padding: 0 half();
+
+      &__container {
+        list-style-type: none;
+        padding: 0;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      &__item{
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+        padding: half() simple();
+        background-color: color(gray7);
+        font-size: 1.1em;
+        text-align: left;
+        color: color(gray1);
+
+        &:not(:last-child) {
+          margin-bottom: 2px;
+        }
+
+        &__text {
+          padding-right: calc(#{half()} + #{quarter()});
+        }
+        &__icon {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: half();
+          color: color(gray4);
+
+        }
+
+      }
+    }
+
+    .az-cell, .az-input, input{
+      background-color: transparent;
+    }
+
+    .az-input, input{
+      border-bottom: 1px solid color(gray6);
+    }
+  }
+
+
+  &__buttons {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    padding-top: simple();
+  }
+
+  &__button {
+    @extend %base-normal-black;
+
+    width: 100%;
+    height: double();
+    overflow: hidden;
+    line-height: double();
+    color: color(gray8) !important;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid $border-color;
+
+    &:not(:last-child) {
+      border-right: 1px solid $border-color;
+    }
+  }
+
+  &__button--brand{
+    background-image: radial-gradient(circle at 0% 0%, color(brand-light), color(brand));
+  }
+
+  &__button--cancel{
+    background-image: radial-gradient(circle at 0% 0%, color(gray6), color(gray4));
+  }
+
+  &__footer{
+    padding: half();
+    font-size: font-size(small1);
+    line-height: 1.5em;
+  }
+
+  &__backButton{
+    width: 20%;
+    padding: 0 0 half();
+  }
+
+  .linear-overlay-mask{
+    position: absolute;
+    bottom: 0;
+    z-index: 2000;
+    width: 100%;
+    height: size(3);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
+    border-radius: 0 0 $border-radius $border-radius;
+
+    &--buttons {
+      bottom: double();
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    &.colour-title{
+      padding-bottom: half();
+      margin-bottom: half();
+      font-weight: bold;
+
+      &.color-1{
+        color: #00AAA1;
+
+        &.underline{
+          border-bottom: 2px solid #00AAA1;
+        }
+      }
+
+      &.color-2{
+        color: #FFB837;
+
+        &.underline{
+            border-bottom: 2px solid #FFB837;
+        }
+      }
+
+      &.color-3{
+        color: #F3975B;
+
+        &.underline{
+            border-bottom: 2px solid #F3975B;
+        }
+      }
+
+      &.color-4{
+        color: #D04F53;
+
+        &.underline{
+          border-bottom: 2px solid #D04F53;
+        }
+      }
+
+      &.color-5{
+        color: #965379;
+
+        &.underline{
+          border-bottom: 2px solid #965379;
+        }
+      }
+    }
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0
+  }
+}
+
+@include media(landscape) {
+  .popupModal{
+    &__wrapper {
+      max-width: 370px;
+    }
+  }
+}

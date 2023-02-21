@@ -1,0 +1,27 @@
+.sectionInfo{
+  display: flex;
+  justify-content: space-between;
+  color: color(gray3);
+
+  &__info{
+    color: inherit;
+  }
+
+  &__info--brand{
+    color: color(brand);
+  }
+
+  &__info--success{
+    color: color(success);
+  }
+
+  &__info--warning{
+    color: color(warning);
+  }
+
+  &__info--danger{
+    color: color(danger);
+  }
+
+
+}

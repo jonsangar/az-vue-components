@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionInfo.vue Comprueba que se renderiza las props cuando se asignan las props 1`] = `
+<div class="sectionInfo">
+  <div class="sectionInfo__title">MyTitle</div>
+  <div class="sectionInfo__info sectionInfo__info--brand">Info</div>
+</div>
+`;
+
+exports[`SectionInfo.vue Comprueba renderizado del componente SectionInfo con snapshot 1`] = `
+<div class="sectionInfo">
+  <div class="sectionInfo__title"></div>
+  <div class="sectionInfo__info"></div>
+</div>
+`;

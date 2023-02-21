@@ -1,0 +1,25 @@
+{
+  "name": "az-vue-components",
+  "version": "1.0.0",
+  "description": "Components for Vue based in Didor framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonsangar/az-vue-components.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Airzone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonsangar/az-vue-components/issues"
+  },
+  "homepage": "https://github.com/jonsangar/az-vue-components#readme",
+  "dependencies": {
+    "@didor/styles": "^0.2.0"
+  }
+}

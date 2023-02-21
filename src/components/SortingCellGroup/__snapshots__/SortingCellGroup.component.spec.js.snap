@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortingCellGroup.vue Comprueba renderizado del componente SortingCellGroup con snapshot 1`] = `
+<div class="az-sorting-group">
+  <!---->
+</div>
+`;

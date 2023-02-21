@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fieldset.vue Comprueba renderizado del componente Fieldset con snapshot 1`] = `
+<div class="az-fieldset">
+  <!---->
+  <div class="az-fieldset__content"></div>
+</div>
+`;

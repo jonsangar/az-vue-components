@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feedback.vue Comprueba renderizado del componente Feedback con snapshot 1`] = `
+<div class="az-feedback__scale" style="transform: scale(0.5);">
+  <div class="az-feedback">
+    <div class="az-feedback__spinner"><svg>
+        <circle cx="50%" cy="50%" r="50px"></circle>
+      </svg></div>
+    <div class="az-feedback__successMark"></div>
+    <div class="az-feedback__errorMark"></div>
+  </div>
+</div>
+`;

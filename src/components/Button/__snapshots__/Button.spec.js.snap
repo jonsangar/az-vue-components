@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.vue Comprueba renderizado del componente Button con snapshot 1`] = `
+<button type="button" class="az-button az-button--icon-only">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+</button>
+`;

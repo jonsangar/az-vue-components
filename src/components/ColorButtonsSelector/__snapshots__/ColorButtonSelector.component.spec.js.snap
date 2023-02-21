@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorButtonsSelector.vue Comprueba renderizado del componente ColorButtonsSelector con snapshot 1`] = `
+<div class="colorButtonsSelector">
+  <colorbutton-stub color="1" selected="true" class="colorButtonsSelector__item"></colorbutton-stub>
+  <colorbutton-stub color="2" class="colorButtonsSelector__item"></colorbutton-stub>
+  <colorbutton-stub color="3" class="colorButtonsSelector__item"></colorbutton-stub>
+  <colorbutton-stub color="4" class="colorButtonsSelector__item"></colorbutton-stub>
+  <colorbutton-stub color="5" class="colorButtonsSelector__item"></colorbutton-stub>
+  <colorbutton-stub color="6" class="colorButtonsSelector__item"></colorbutton-stub>
+</div>
+`;

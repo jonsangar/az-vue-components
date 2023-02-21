@@ -1,0 +1,16 @@
+.colorButtonsSelector{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__item{
+    pointer-events: all;
+    cursor: pointer;
+  }
+
+  &--disbled{
+    .colorButtonsSelector__item{
+      opacity: .6;
+    }
+  }
+}

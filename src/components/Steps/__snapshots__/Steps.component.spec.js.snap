@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Steps.vue Comprueba renderizado del componente Steps con snapshot 1`] = `
+<div active="0" activecolor="var(color--success)" class="az-steps--horizontal">
+  <div class="az-steps__items"></div>
+  <div class="az-steps__line"></div>
+</div>
+`;

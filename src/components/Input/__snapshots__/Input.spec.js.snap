@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.vue Input type="number" Comprobar que se aplica el tipo "number" correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="number" placeholder="" class="az-input__control" style="text-align: left;">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="password" Se aplica correctamente el tipo "password" en el input 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="password" placeholder="" class="az-input__control" style="text-align: left;">
+        <!---->
+        <!---->
+        <div class="az-input__password">
+          <az-icon-stub name="password-hide" width="" height="" fill="true"></az-icon-stub>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Comprueba renderizado del componente Input con snapshot 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" El input align "center" se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: center;" id="9">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" El input align "right" se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: right;" id="11">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" El label align "center" se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!----><label for="17" class="az-input__label" style="width: 90px; text-align: center;">Name</label>
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="17">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" El label align "right" se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!----><label for="19" class="az-input__label" style="width: 90px; text-align: right;">Name</label>
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="19">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" El label width se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!----><label for="15" class="az-input__label" style="width: 100px; text-align: left;">Name</label>
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="15">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Funciona correctamente la opción "disabled" 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="33" disabled="disabled">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Funciona correctamente la opción "readonly" 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="35" readonly="readonly">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Icono derecho se pinta correctamente y lanza evento al clickar en él 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="54">
+        <!---->
+        <!---->
+        <!---->
+        <div class="az-input__right-icon">
+          <az-icon-stub name="user" width="" height="" fill="true"></az-icon-stub>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Icono izquierdo se pinta correctamente y lanza evento al clickar en él 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <div class="az-input__left-icon">
+      <az-icon-stub name="user" width="" height="" fill="true"></az-icon-stub>
+    </div>
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="51">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Renderiza correctamente etiqueta (label) 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!----><label for="13" class="az-input__label" style="width: 90px; text-align: left;">Name</label>
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="13">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Renderiza correctamente icono función "clear" 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="37">
+        <!---->
+        <div class="az-input__clear">
+          <az-icon-stub name="clear" width="" height="" fill="true"></az-icon-stub>
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Renderiza correctamente mensaje de error (errorMessage) 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="21">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <div class="az-input__error-message" style="text-align: left;">Bad parameters</div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="text" Renderiza correctamente mensaje de info (infoMessage) 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body"><input type="text" placeholder="" class="az-input__control" style="text-align: left;" id="27">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <div class="az-input__info-message" style="text-align: left;">Info message</div>
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="textarea" El textarea align "center" se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body">
+        <!----><textarea type="textarea" placeholder="" rows="2" class="az-input__control" style="text-align: center;" id="61"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="textarea" El textarea align "right" se modifica correctamente 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body">
+        <!----><textarea type="textarea" placeholder="" rows="2" class="az-input__control" style="text-align: right;" id="63"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="textarea" Funciona correctamente la opción "disabled" 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body">
+        <!----><textarea type="textarea" placeholder="" rows="2" class="az-input__control" style="text-align: left;" id="65" disabled="disabled"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="textarea" Funciona correctamente la opción "readonly" 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body">
+        <!----><textarea type="textarea" placeholder="" rows="2" class="az-input__control" style="text-align: left;" id="67" readonly="readonly"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Input.vue Input type="textarea" Renderiza correctamente "textarea" 1`] = `
+<div class="az-input">
+  <div class="az-input__content">
+    <!---->
+    <!---->
+    <div class="az-input__value">
+      <div class="az-input__body">
+        <!----><textarea type="textarea" placeholder="" rows="2" class="az-input__control" style="text-align: left;" id="57"></textarea>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="az-input__message">
+    <!---->
+    <!---->
+  </div>
+</div>
+`;

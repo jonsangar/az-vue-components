@@ -1,0 +1,38 @@
+.bubblePopup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+
+  /* Adding safe area  */
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-bottom: var(--notch-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-left: var(--notch-inset-left);
+
+  /* Hacemos que las celdas dentro del popup de burbuja se destaquen como enlaces */
+  .az-cell {
+    cursor: pointer;
+    line-height: 1.2em;
+  }
+
+  &__mask {
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  }
+
+  &__content{
+    @include shadow(3);
+
+    position: absolute;
+    background-color: white;
+    border-radius: $border-radius;
+    z-index: 200;
+    overflow: hidden;
+    color: color(gray1);
+  }
+
+}

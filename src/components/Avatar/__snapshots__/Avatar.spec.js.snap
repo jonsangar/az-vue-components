@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar.vue Renderiza correctamente el compenente avatar con estilos por defecto 1`] = `
+<div class="az-avatar" style="background-color: rgb(255, 255, 255); width: 5rem; height: 5rem; line-height: 5rem; font-size: 5rem;"><svg version="1.1" viewBox="0 0 16 16" class="az-avatar__icon az-icon az-fill"></svg>
+  <!---->
+  <!---->
+</div>
+`;
+
+exports[`Avatar.vue Renderiza correctamente el compenente avatar con estilos por defecto 2`] = `
+<div class="az-avatar az-avatar--link" style="background-color: rgb(0, 0, 0); width: 7rem; height: 7rem; line-height: 7rem; font-size: 7rem;"><svg version="1.1" viewBox="0 0 16 16" class="az-avatar__icon az-icon az-fill"></svg>
+  <div class="az-avatar__initials" style="background-color: rgb(0, 0, 0);">RM</div>
+  <div class="az-avatar__image" style="background-image: url(@/assets/airzoneWhite.svg);"></div>
+</div>
+`;

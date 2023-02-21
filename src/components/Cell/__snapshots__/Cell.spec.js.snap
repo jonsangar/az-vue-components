@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell.vue Comprueba que el botón tiene la propiedad valueAlign a la izquierda 1`] = `
+<div class="az-cell">
+  <!---->
+  <!---->
+  <div class="az-cell__value">
+    <div class="az-cell__body" style="justify-content: flex-start;">
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`Cell.vue Comprueba que tiene el icono con dirección y escalado 1`] = `
+<div class="az-cell az-cell--link">
+  <!---->
+  <!---->
+  <div class="az-cell__value">
+    <div class="az-cell__body" style="justify-content: flex-start;">
+      <div class="az-cell__link-icon"><svg version="1.1" viewBox="0 0 16 16" class="az-icon az-fill"></svg></div>
+      <!---->
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`Cell.vue Comprueba que tiene el icono de la derecha 1`] = `
+<div class="az-cell">
+  <!---->
+  <!---->
+  <div class="az-cell__value">
+    <div class="az-cell__body" style="justify-content: flex-start;">
+      <!---->
+      <div class="az-cell__right-icon"><svg version="1.1" viewBox="0 0 16 16" class="az-icon az-fill"></svg></div>
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`Cell.vue Comprueba que tiene el icono de la izquierda con escalado 1`] = `
+<div class="az-cell">
+  <div class="az-cell__left-icon"><svg version="1.1" viewBox="0 0 16 16" class="az-icon az-fill"></svg></div>
+  <!---->
+  <div class="az-cell__value">
+    <div class="az-cell__body" style="justify-content: flex-start;">
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <!---->
+</div>
+`;
+
+exports[`Cell.vue Comprueba renderizado del componente Cell con snapshot 1`] = `
+<div class="az-cell">
+  <!---->
+  <!---->
+  <div class="az-cell__value">
+    <div class="az-cell__body" style="justify-content: flex-start;">
+      <!---->
+      <!---->
+    </div>
+  </div>
+  <!---->
+</div>
+`;

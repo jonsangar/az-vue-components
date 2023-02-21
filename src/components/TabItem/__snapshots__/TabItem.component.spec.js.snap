@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabItem.vue Comprueba renderizado del componente TabItem con snapshot 1`] = `
+<div class="az-tab az-tab--selected">
+  <router-link-stub to="[object Object]"></router-link-stub>
+</div>
+`;

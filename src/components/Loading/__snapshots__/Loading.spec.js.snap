@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading.vue Comprueba renderizado del componente Loading con snapshot 1`] = `
+<div class="az-loading" style="font-size: 1rem; --color-az-loading: var(--color-brand);">
+  <!---->
+  <!---->
+  <div class="az-loading--star">
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+    <div class="az-loading__item"></div>
+  </div>
+  <!---->
+  <!---->
+</div>
+`;

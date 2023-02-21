@@ -1,0 +1,62 @@
+.Select{
+  position: relative;
+  // padding: .75rem 0 .75rem .75rem;
+  width: fit-content;
+
+  select{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    cursor: pointer;
+    display: inline;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+
+  }
+
+  &--brand {
+    color: color(brand)
+  }
+
+  &--danger {
+    color: color(danger)
+  }
+
+  &--warning {
+    color: color(warning)
+  }
+
+  &__input{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+    &--disabled{
+      cursor: not-allowed !important;
+      opacity: .5;
+    }
+
+    &__value {
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &--alignRight {
+        text-align: right;
+        margin-right: .5rem;
+      }
+    }
+
+    &__icon {
+      width: 1rem;
+      text-align: right;
+    }
+  }
+}

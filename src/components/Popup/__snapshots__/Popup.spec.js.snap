@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popup.vue Comprueba renderizado del componente Popup con snapshot 1`] = `
+<transition-stub name="az-popup-none">
+  <div tabindex="-1" class="az-popup" style="animation-duration: 300ms; z-index: 100;">
+    <transition-stub name="az-popup-fade">
+      <div class="az-popup__mask" style="animation-duration: 300ms; z-index: 100;"></div>
+    </transition-stub>
+    <transition-stub name="az-popup-zoom">
+      <div class="az-popup__dialog" style="transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1); animation-timing-function: cubic-bezier(0.55, 0, 0.1, 1);"><span class="az-popup__close"></span>
+        <div class="az-popup__content"></div>
+      </div>
+    </transition-stub>
+  </div>
+</transition-stub>
+`;

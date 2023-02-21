@@ -1,0 +1,32 @@
+.az-folding-box{
+  @include shadow(3);
+
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  &__header {
+    padding: half();
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    &__title{
+      font-weight: bold;
+    }
+  }
+
+  &__container {
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+
+  }
+
+  &__content {
+    padding: half();
+
+    &.nopadding {
+      padding: 0 !important
+    }
+  }
+}

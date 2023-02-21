@@ -1,0 +1,37 @@
+.az-fieldset {
+  $rootClass: &;
+
+  margin-bottom: simple();
+
+  &--brand-theme{
+    background-image: linear-gradient(to right, color(brand-dark), color(brand));
+    border-radius: 10px;
+  }
+
+  .az-fieldset__content {
+    border-top: none;
+    border-bottom: none;
+    // border-radius: 5px !important;
+  }
+}
+
+@include media(palm) {
+  .az-fieldset {
+    &__content {
+      border-top: 1px solid color(border);
+      border-bottom: 1px solid color(border);
+    }
+
+    &--brand-theme{
+      .az-fieldset__content {
+        border-top: none;
+        border-bottom: none;
+        // border-radius: 5px !important;
+      }
+    }
+
+    &__title {
+      padding: quarter() half();
+    }
+  }
+}

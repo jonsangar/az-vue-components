@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputNumber.vue Comprueba renderizado del componente InputNumber con snapshot 1`] = `
+<div class="input-number">
+  <!---->
+  <div class="input-number__button">
+    <az-icon-stub name="less" width="" height="" scale="0.8" fill="true"></az-icon-stub>
+  </div>
+  <div class="input-number__value">1 </div>
+  <div class="input-number__button">
+    <az-icon-stub name="more" width="" height="" scale="0.8" fill="true"></az-icon-stub>
+  </div>
+</div>
+`;

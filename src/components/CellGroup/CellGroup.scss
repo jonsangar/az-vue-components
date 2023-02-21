@@ -1,0 +1,24 @@
+.az-cell-group {
+  $rootClass: &;
+
+  margin-bottom: simple();
+  border-radius: $border-radius;
+
+  &__content {
+      border-radius: $border-radius;
+  }
+
+}
+
+@include media(palm) {
+  .az-cell-group {
+    &__content {
+      border-top: 1px solid color(border);
+      border-bottom: 1px solid color(border);
+    }
+
+    &__title {
+      padding: quarter() half();
+    }
+  }
+}

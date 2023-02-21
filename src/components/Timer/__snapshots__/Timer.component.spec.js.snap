@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer.component.vue Comprobar que se muestra message cuando se recibe la prop 1`] = `
+<div class="timerModal">
+  <div class="timerModal__wrapper">
+    <!---->
+    <div class="timerModal__message text-center">Lorem ipsum dolor sit amet</div>
+    <div class="picker-group padding-half margin-bottom-double">
+      <scroll-picker-stub value="2" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="hours-picker"></scroll-picker-stub>
+      <scroll-picker-stub value="0" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="minutes-picker"></scroll-picker-stub>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Timer.component.vue Comprobar que se muestra titulo cuando se recibe la prop 1`] = `
+<div class="timerModal">
+  <div class="timerModal__wrapper">
+    <div class="timerModal__title font-weight-bold padding-half">Temporizador</div>
+    <!---->
+    <div class="picker-group padding-half margin-bottom-double">
+      <scroll-picker-stub value="2" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="hours-picker"></scroll-picker-stub>
+      <scroll-picker-stub value="0" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="minutes-picker"></scroll-picker-stub>
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Timer.component.vue Comprobar que se muestran botones de confirmación si se recibe la prop 1`] = `
+<div class="timerModal">
+  <div class="timerModal__wrapper">
+    <!---->
+    <!---->
+    <div class="picker-group padding-half margin-bottom-double">
+      <scroll-picker-stub value="2" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="hours-picker"></scroll-picker-stub>
+      <scroll-picker-stub value="0" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="minutes-picker"></scroll-picker-stub>
+    </div>
+    <div class="timerModal__buttons margin-top">
+      <div class="timerModal__button timerModal__button--cancel"></div>
+      <div class="timerModal__button timerModal__button--brand"></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Timer.component.vue Renderizado del componente con snapshot 1`] = `
+<div class="timerModal">
+  <div class="timerModal__wrapper">
+    <!---->
+    <!---->
+    <div class="picker-group padding-half margin-bottom-double">
+      <scroll-picker-stub value="2" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="hours-picker"></scroll-picker-stub>
+      <scroll-picker-stub value="0" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" dragsensitivity="1.7" touchsensitivity="1.7" scrollsensitivity="1" empty="No Items" class="minutes-picker"></scroll-picker-stub>
+    </div>
+    <!---->
+  </div>
+</div>
+`;

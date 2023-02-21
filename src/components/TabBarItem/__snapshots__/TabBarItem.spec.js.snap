@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabBarItem.vue Comprueba renderizado del componente TabBarItem con snapshot 1`] = `
+<div class="az-tabBarItem" value="true" active="true">
+  <div class="az-tabBarItem__icon">
+    <az-icon-stub name="save" width="" height="" scale="1" fill="true"></az-icon-stub>
+    <div class="az-tabBarItem__badge">MyInfo</div>
+  </div>
+  <!---->
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row.vue Comprueba renderizado del componente Row con snapshot 1`] = `<div class="row"><span>foo</span></div>`;
+
+exports[`Row.vue Renderiza el contenido del slot 1`] = `<div class="row row--align-center row--valign-middle row--dir-row row--hwrap-nowrap row--vwrap-between row--vgutter-none row--inline"><span>foo</span></div>`;
