@@ -99,9 +99,6 @@ export default {
       return this.type === 'error';
     },
 
-    isProd() {
-      return this.$constants.IS_PRODUCTION;
-    },
   },
 
   methods: {

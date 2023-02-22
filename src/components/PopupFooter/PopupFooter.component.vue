@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import OverlayMask from 'Core/mixins/OverlayMask.mixin';
+import OverlayMask from '../../mixins/OverlayMask.mixin';
 
 export default {
   mixins: [

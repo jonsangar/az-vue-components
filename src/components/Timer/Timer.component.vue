@@ -83,16 +83,10 @@ props: {
 
     cancelBtnText: {
       type: String,
-      default() {
-        return this.$i18n ? this.$i18n.t('buttons.cancel') : '';
-      }
     },
 
     acceptBtnText: {
       type: String,
-      default() {
-        return this.$i18n ? this.$i18n.t('buttons.accept') : '';
-      }
     },
 
     textAlign: {

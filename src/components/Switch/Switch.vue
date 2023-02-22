@@ -4,8 +4,7 @@
     :style="switchStyle"
     role="switch"
     :aria-checked="String(checked)"
-    @click="onClick"
-    @touchstart="!disabled ? emitFeedback() : false")
+    @click="onClick")
     .az-switch__node
 </template>
 

@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import openLink from 'Core/utils/openLink.utils';
 
 export default {
   props: {
@@ -186,7 +185,7 @@ export default {
       // console.log('onClickContent: ', e)
       if (e?.target?.href){
         e.preventDefault()
-        openLink(e.target.href)
+        this.$emit('openlink', e.targe.href)
       }
     },
   },

@@ -81,8 +81,7 @@ transition(name="fade-in-linear-transition")
 </template>
 
 <script>
-import OverlayMask from 'Core/mixins/OverlayMask.mixin';
-import openLink from 'Core/utils/openLink.utils';
+import OverlayMask from '../../mixins/OverlayMask.mixin';
 
 export default {
   mixins: [
@@ -102,9 +101,7 @@ export default {
 
     loadingText: {
       type: String,
-      default() {
-        return this.$i18n ? this.$i18n.t('messages.loading') : '';
-      }
+      default: ''
     },
 
     title: {
@@ -160,16 +157,10 @@ export default {
 
     cancelBtnText: {
       type: String,
-      default() {
-        return this.$i18n ? this.$i18n.t('buttons.cancel') : '';
-      }
     },
 
     acceptBtnText: {
       type: String,
-      default() {
-        return this.$i18n ? this.$i18n.t('buttons.accept') : '';
-      }
     },
 
     textAlign: {
@@ -255,7 +246,7 @@ export default {
       // console.log('onClickMessage: ', e)
       if (e?.target?.href){
         e.preventDefault()
-        openLink(e.target.href)
+        this.$emit('openlink', e.target.href);
       }
     },
 
@@ -263,7 +254,7 @@ export default {
       // console.log('onClickOtherMessage: ', e)
       if (e?.target?.href){
         e.preventDefault()
-        openLink(e.target.href)
+        this.$emit('openlink', e.target.href);
       }
     },
 
