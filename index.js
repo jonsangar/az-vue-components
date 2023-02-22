@@ -29,9 +29,6 @@ const TabBar = require('./src/components/TabBar/TabBar.vue');
 const Tabs = require('./src/components/Tabs');
 const Timer = require('./src/components/Timer');
 const TabBarItem = require('./src/components/TabBarItem/TabBarItem.vue');
-const SectionInfo = require('./src/components/SectionInfo');
-const Select = require('./src/components/Select');
-const DotButton = require('./src/components/DotButton');
 
 module.exports = {
     Avatar,
